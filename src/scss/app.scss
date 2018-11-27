@@ -3,8 +3,28 @@ body {
   padding-top: 70px;
 }
 
-.logo {
+.container-fluid {
+  background-color: #315aa5;
+  height: 87px;
+}
+
+.navbar-default .navbar-nav li a {
+  color: white;
+  position: relative;
+  top: 18px;
+}
+ .galeria {
+   padding-top: 80px;
+   padding-bottom: 60px;
+ }
+
+.botonmasinformacion {
+  text-align: center;
+}
+
+iframe {
   max-width: 100%;
+
 }
 
 
