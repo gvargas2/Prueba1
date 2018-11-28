@@ -24,8 +24,11 @@ h3 {
 .navbar-default .navbar-nav li a {
   color: #E5EAF4;
   position: relative;
-  top: 18px;
   padding-right: 20px;
+}
+
+.botonesabajo {
+  background-color: #315aa5;
 }
 
 /*CARRUSEL*/
@@ -66,6 +69,10 @@ h3 {
   padding: 50px;
 }
 
+.destacadomision {
+  color: #A54231;
+}
+
 /*GOOGLE MAPS*/
 
 iframe {
@@ -99,6 +106,7 @@ iframe {
 
 footer {
   color: white;
+  padding-bottom: 20px;
 }
 
 footer h3 {
@@ -134,5 +142,9 @@ footer .footer-below {
 .noticias p {
   text-align: left;
   padding: 20px;
+}
+
+.noticia {
+  margin: auto;
 }
 
