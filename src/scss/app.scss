@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Black+Han+Sans|Dosis');
-@import 'nosotros';
-@import 'noticias';
-@import 'navbar';
-@import 'carrusel';
-@import 'footer';
-@import 'thumbnails';
-@import 'googlemaps';
+@import '_nosotros';
+@import '_noticias';
+@import '_navbar';
+@import '_carrusel';
+@import '_footer';
+@import '_thumbnails';
+@import '_googlemaps';
 
 body {
   margin: 0;

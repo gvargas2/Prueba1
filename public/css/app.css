@@ -32,6 +32,7 @@
 
 .noticia {
   margin: auto;
+  border: 10px solid white;
 }
 
 /*NAVBAR*/
@@ -49,6 +50,7 @@
 
 .botonesabajo {
   background-color: #315aa5;
+  padding-top: 20px;
 }
 
 /*CARRUSEL*/
@@ -107,27 +109,6 @@ footer .footer-below {
   background-color: red;
 }
 
-body {
-  margin: 0;
-  padding-top: 70px;
-  background-color: #B2C1DD;
-  font-family: 'Dosis', sans-serif;
-  color: white;
-  font-size: 18px;
-}
-
-h1,
-h2,
-h3 {
-  font-family: 'Black Han Sans', sans-serif;
-  color: #e8a600;
-}
-
-h6 {
-  display: inline-block;
-  padding-right: 100px;
-}
-
 /*THUMBNAILS*/
 
 .galeria {
@@ -151,5 +132,26 @@ h6 {
 
 iframe {
   max-width: 100%;
+}
+
+body {
+  margin: 0;
+  padding-top: 70px;
+  background-color: #B2C1DD;
+  font-family: 'Dosis', sans-serif;
+  color: white;
+  font-size: 18px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Black Han Sans', sans-serif;
+  color: #e8a600;
+}
+
+h6 {
+  display: inline-block;
+  padding-right: 100px;
 }
 
