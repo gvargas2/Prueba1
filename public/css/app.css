@@ -1,7 +1,17 @@
-body {
+@import url(https://fonts.googleapis.com/css?family=Abel|Sedgwick+Ave);@import url(https://fonts.googleapis.com/css?family=Amatic+SC);body {
   margin: 0;
   padding-top: 70px;
-  background-color: #6E89B9;
+  background-color: #B2C1DD;
+  font-family: 'Abel', sans-serif;
+  color: white;
+  font-size: 18px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Amatic SC', cursive;
+  color: #A53194;
 }
 
 /*NAVBAR*/
@@ -12,10 +22,22 @@ body {
 }
 
 .navbar-default .navbar-nav li a {
-  color: #94B7F7;
+  color: #E5EAF4;
   position: relative;
   top: 18px;
   padding-right: 20px;
+}
+
+/*CARRUSEL*/
+
+.carousel-inner {
+  text-align: center;
+  height: 50%;
+}
+
+.carousel .item img {
+  display: inline-block;
+  min-height: 300px;
 }
 
 /*THUMBNAILS*/
@@ -27,6 +49,17 @@ body {
 
 .botonmasinformacion {
   text-align: center;
+}
+
+.corregido {
+  padding-bottom: 22px;
+}
+
+/*NOSOTROS*/
+
+.nosotros {
+  color: #1F3867;
+  padding: 50px;
 }
 
 /*GOOGLE MAPS*/
@@ -66,6 +99,7 @@ footer {
 
 footer h3 {
   margin-bottom: 30px;
+  color: #CBD6E8;
 }
 
 footer .footer-col {
@@ -75,5 +109,26 @@ footer .footer-col {
 footer .footer-below {
   padding: 25px 0;
   background-color: red;
+}
+
+/*NOTICIAS.HTML*/
+
+.jumbotron {
+  background-color: #E5EAF4;
+  text-align: center;
+  color: #A53194;
+}
+
+.noticias {
+  text-align: center;
+  padding: 30px;
+  margin-bottom: 30px;
+  border-bottom: 5px solid #E5EAF4;
+  color: #1F3867;
+}
+
+.noticias p {
+  text-align: left;
+  padding: 20px;
 }
 
