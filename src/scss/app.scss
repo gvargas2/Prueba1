@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Black+Han+Sans|Dosis');
+@import 'nosotros';
+@import 'noticias';
+@import 'navbar';
+@import 'carrusel';
+@import 'footer';
+@import 'thumbnails';
+@import 'googlemaps';
 
 body {
   margin: 0;
@@ -16,114 +23,4 @@ h1, h2, h3 {
 h6 {
   display: inline-block;
   padding-right: 100px;
-}
-/*NAVBAR*/
-.container-fluid {
-  background-color: #315aa5;
-  height: 87px;
-}
-.navbar-default .navbar-nav li a {
-  color: #E5EAF4;
-  position: relative;
-  padding-right: 20px;
-}
-.botonesabajo {
-  background-color: #315aa5;
-}
-
-/*CARRUSEL*/
-.carousel-inner {
-  text-align: center;
-  height: 50%;
-}
-.carousel .item {
-  img {
-    display: inline-block;
-    min-height: 300px;
-  }
-}
-/*THUMBNAILS*/
- .galeria {
-   padding-top: 80px;
-   padding-bottom: 60px;
- }
-.botonmasinformacion {
-  text-align: center;
-}
-.corregido2 {
-  padding-bottom: 13px;
-}
-.corregido {
-  padding-bottom: 27px;
-}
-
-/*NOSOTROS*/
-.nosotros {
-  color: #1F3867;
-  padding: 50px;
-}
-.destacadomision {
-  color: #C9788A;
-}
-
-/*GOOGLE MAPS*/
-iframe {
-  max-width: 100%;
-}
-
-
-/*FOOTER*/
-.formulario {
-  color: black;
-  display: block;
-  width: 100%;
-}
-.datos {
-  padding-bottom: 15px;
-}
-.tituloformulario {
-  padding-bottom: 30px;
-}
-.tituloformulario2 {
-  padding-bottom: 5px;
-}
-.footer-style {
-    padding-top: 20px;
-    background-color: #315AA5;
-}
-footer {
-  color: white;
-  padding-bottom: 20px;
-}
-footer h3 {
-  margin-bottom: 30px;
-  color: #CBD6E8;
-}
-footer .footer-col {
-  margin-bottom: 40px;
-}
-footer .footer-below {
-  padding: 25px 0;
-  background-color: red;
-}
-/*NOTICIAS.HTML*/
-.jumbotron {
-  background-color: #E5EAF4;
-  text-align: center;
-  color: #e8a600;
-}
-.noticias {
-  text-align: center;
-  padding: 30px;
-  margin-bottom: 30px;
-  border-bottom: 5px solid #E5EAF4;
-  color: #1F3867;
-
-    p {
-      text-align: left;
-      padding: 20px;
-    }
-  }
-.noticia {
-  margin: auto;
 }

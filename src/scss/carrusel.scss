@@ -1,0 +1,11 @@
+/*CARRUSEL*/
+.carousel-inner {
+  text-align: center;
+  height: 50%;
+}
+.carousel .item {
+  img {
+    display: inline-block;
+    min-height: 300px;
+  }
+}

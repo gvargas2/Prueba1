@@ -1,22 +1,37 @@
-@import url(https://fonts.googleapis.com/css?family=Black+Han+Sans|Dosis);body {
-  margin: 0;
-  padding-top: 70px;
-  background-color: #B2C1DD;
-  font-family: 'Dosis', sans-serif;
-  color: white;
-  font-size: 18px;
+@import url(https://fonts.googleapis.com/css?family=Black+Han+Sans|Dosis);/*NOSOTROS*/
+
+.nosotros {
+  color: #1F3867;
+  padding: 50px;
 }
 
-h1,
-h2,
-h3 {
-  font-family: 'Black Han Sans', sans-serif;
+.destacadomision {
+  color: #C9788A;
+}
+
+/*NOTICIAS.HTML*/
+
+.jumbotron {
+  background-color: #E5EAF4;
+  text-align: center;
   color: #e8a600;
 }
 
-h6 {
-  display: inline-block;
-  padding-right: 100px;
+.noticias {
+  text-align: center;
+  padding: 30px;
+  margin-bottom: 30px;
+  border-bottom: 5px solid #E5EAF4;
+  color: #1F3867;
+}
+
+.noticias p {
+  text-align: left;
+  padding: 20px;
+}
+
+.noticia {
+  margin: auto;
 }
 
 /*NAVBAR*/
@@ -46,42 +61,6 @@ h6 {
 .carousel .item img {
   display: inline-block;
   min-height: 300px;
-}
-
-/*THUMBNAILS*/
-
-.galeria {
-  padding-top: 80px;
-  padding-bottom: 60px;
-}
-
-.botonmasinformacion {
-  text-align: center;
-}
-
-.corregido2 {
-  padding-bottom: 13px;
-}
-
-.corregido {
-  padding-bottom: 27px;
-}
-
-/*NOSOTROS*/
-
-.nosotros {
-  color: #1F3867;
-  padding: 50px;
-}
-
-.destacadomision {
-  color: #C9788A;
-}
-
-/*GOOGLE MAPS*/
-
-iframe {
-  max-width: 100%;
 }
 
 /*FOOTER*/
@@ -128,28 +107,49 @@ footer .footer-below {
   background-color: red;
 }
 
-/*NOTICIAS.HTML*/
+body {
+  margin: 0;
+  padding-top: 70px;
+  background-color: #B2C1DD;
+  font-family: 'Dosis', sans-serif;
+  color: white;
+  font-size: 18px;
+}
 
-.jumbotron {
-  background-color: #E5EAF4;
-  text-align: center;
+h1,
+h2,
+h3 {
+  font-family: 'Black Han Sans', sans-serif;
   color: #e8a600;
 }
 
-.noticias {
+h6 {
+  display: inline-block;
+  padding-right: 100px;
+}
+
+/*THUMBNAILS*/
+
+.galeria {
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+
+.botonmasinformacion {
   text-align: center;
-  padding: 30px;
-  margin-bottom: 30px;
-  border-bottom: 5px solid #E5EAF4;
-  color: #1F3867;
 }
 
-.noticias p {
-  text-align: left;
-  padding: 20px;
+.corregido2 {
+  padding-bottom: 13px;
 }
 
-.noticia {
-  margin: auto;
+.corregido {
+  padding-bottom: 27px;
+}
+
+/*GOOGLE MAPS*/
+
+iframe {
+  max-width: 100%;
 }
 
