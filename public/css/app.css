@@ -2,11 +2,11 @@
 
 .nosotros {
   color: #1F3867;
-  padding: 50px;
+  padding: 20px;
 }
 
 .destacadomision {
-  color: #C9788A;
+  color: #D9A111;
 }
 
 /*NOTICIAS.HTML*/
@@ -33,6 +33,12 @@
 .noticia {
   margin: auto;
   border: 10px solid white;
+}
+
+.marco h1 {
+  background-color: white;
+  margin-top: 10px;
+  padding-top: 5px;
 }
 
 /*NAVBAR*/
@@ -74,7 +80,8 @@
 }
 
 .datos {
-  padding-bottom: 15px;
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .tituloformulario {
@@ -107,6 +114,14 @@ footer .footer-col {
 footer .footer-below {
   padding: 25px 0;
   background-color: red;
+}
+
+.botonfooter {
+  margin-top: 10px;
+}
+
+.fab {
+  margin-right: 20px;
 }
 
 /*THUMBNAILS*/
