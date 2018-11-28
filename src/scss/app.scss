@@ -1,18 +1,17 @@
-@import url('https://fonts.googleapis.com/css?family=Abel|Sedgwick+Ave');
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+@import url('https://fonts.googleapis.com/css?family=Black+Han+Sans|Dosis');
 
 body {
   margin: 0;
   padding-top: 70px;
   background-color: #B2C1DD;
-  font-family: 'Abel', sans-serif;
+  font-family: 'Dosis', sans-serif;
   color: white;
   font-size: 18px;
 }
 
 h1, h2, h3 {
-  font-family: 'Amatic SC', cursive;
-  color: #A53194;
+  font-family: 'Black Han Sans', sans-serif;
+  color: #C9788A;
 }
 
 /*NAVBAR*/
@@ -52,7 +51,7 @@ h1, h2, h3 {
   padding-bottom: 13px;
 }
 .corregido {
-  padding-bottom: 52px;
+  padding-bottom: 27px;
 }
 
 /*NOSOTROS*/
@@ -61,7 +60,7 @@ h1, h2, h3 {
   padding: 50px;
 }
 .destacadomision {
-  color: #A54231;
+  color: #C9788A;
 }
 
 /*GOOGLE MAPS*/
@@ -108,7 +107,7 @@ footer .footer-below {
 .jumbotron {
   background-color: #E5EAF4;
   text-align: center;
-  color: #A53194;
+  color: #C9788A;
 }
 .noticias {
   text-align: center;
