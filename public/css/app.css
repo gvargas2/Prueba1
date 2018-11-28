@@ -11,7 +11,12 @@ h1,
 h2,
 h3 {
   font-family: 'Black Han Sans', sans-serif;
-  color: #C9788A;
+  color: #e8a600;
+}
+
+h6 {
+  display: inline-block;
+  padding-right: 100px;
 }
 
 /*NAVBAR*/
@@ -128,7 +133,7 @@ footer .footer-below {
 .jumbotron {
   background-color: #E5EAF4;
   text-align: center;
-  color: #C9788A;
+  color: #e8a600;
 }
 
 .noticias {
