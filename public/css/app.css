@@ -59,6 +59,10 @@
   padding-top: 20px;
 }
 
+.navbar-nav {
+  margin-top: 0;
+}
+
 /*CARRUSEL*/
 
 .carousel-inner {
