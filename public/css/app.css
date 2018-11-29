@@ -63,6 +63,10 @@
   margin-top: 0;
 }
 
+.navbar-default .navbar-collapse {
+  border-color: none;
+}
+
 /*CARRUSEL*/
 
 .carousel-inner {
@@ -145,6 +149,15 @@ footer .footer-below {
 
 .corregido {
   padding-bottom: 27px;
+}
+
+.foto {
+  height: 300px;
+  overflow: hidden;
+}
+
+.parrafo {
+  height: 250px;
 }
 
 /*GOOGLE MAPS*/
